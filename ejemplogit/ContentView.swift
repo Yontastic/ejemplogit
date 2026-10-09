@@ -13,7 +13,13 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hola")
+        }
+        VStack {
+            Image(systemName: "bell")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Soy Yotan")
         }
         .padding()
     }
